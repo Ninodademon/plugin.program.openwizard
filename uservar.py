@@ -14,13 +14,13 @@ ART = os.path.join(PATH, 'resources', 'media')
 #        User Edit Variables                            #
 #########################################################
 ADDONTITLE = '[COLOR limegreen][B]Open[/B][/COLOR]Wizard'
-BUILDERNAME = 'OpenWizard'
+BUILDERNAME = 'WizNino'
 EXCLUDES = [ADDON_ID, 'repository.openwizard']
 # Text File with build info in it. Please read https://github.com/a4k-openproject/plugin.program.openwizard/wiki/Installing-Builds
-BUILDFILE = 'http://'
+BUILDFILE = 'https://www.dropbox.com/s/cgmwom8ufdk1q19/builds.txt?dl=0'
 # How often you would like it to check for build updates in days
 # 0 being every startup of kodi
-UPDATECHECK = 0
+UPDATECHECK = 15
 # Text File with apk info in it.  Leave as 'http://' to ignore
 APKFILE = 'http://'
 # Text File with Youtube Videos urls.  Leave as 'http://' to ignore
@@ -29,7 +29,7 @@ YOUTUBEFILE = 'http://'
 # Text File for addon installer.  Leave as 'http://' to ignore
 ADDONFILE = 'http://'
 # Text File for advanced settings.  Leave as 'http://' to ignore
-ADVANCEDFILE = 'http://'
+ADVANCEDFILE = 'https://www.dropbox.com/s/ih4cr4jrx96y1mn/advancedsettings.xml?dl=0'
 #########################################################
 
 #########################################################
